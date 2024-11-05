@@ -1,0 +1,19 @@
+.centered-card {
+    margin: 0 auto;  /* Centraliza horizontalmente */
+    margin-top: 20px; /* Adiciona um espaço acima do card */
+    float: none; /* Previne problemas de flutuação */
+}
+
+.carousel-container {
+    margin-top: 50px;
+}
+
+.carousel-inner {
+    height: 800px; /* altura fixa */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 800px; /* mesma altura do carousel-inner */
+    object-fit: cover; /* mantém a proporção da imagem preenchendo o espaço */
+}
