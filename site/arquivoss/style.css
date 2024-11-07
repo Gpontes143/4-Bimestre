@@ -17,3 +17,80 @@
     height: 800px; /* mesma altura do carousel-inner */
     object-fit: cover; /* mantém a proporção da imagem preenchendo o espaço */
 }
+/* Ajustes gerais para tornar a página mais clean e moderna */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    padding-top: 100px; /* Ajuste para o espaço abaixo da navbar */
+}
+
+.navbar {
+    background-color: #343a40 !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.carousel-inner img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #343a40;
+}
+
+/* Estilizando os cards */
+.card {
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.centered-card {
+    flex: 1;
+    max-width: 18rem;
+    min-width: 250px;
+}
+
+/* Ajustando o footer (se for necessário) */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+    margin-top: 40px;
+}
